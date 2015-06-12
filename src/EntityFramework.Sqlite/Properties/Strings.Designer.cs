@@ -29,6 +29,14 @@ namespace Microsoft.Data.Entity.Sqlite
         }
 
         /// <summary>
+        /// Generating scripts for migration is not supported by SQLite.
+        /// </summary>
+        public static string MigrationScriptGenerationNotSupported
+        {
+            get { return GetString("MigrationScriptGenerationNotSupported"); }
+        }
+
+        /// <summary>
         /// Operations involving multiple databases in SQLite is not currently supported.
         /// </summary>
         public static string MultipleDatabasesNotSupported

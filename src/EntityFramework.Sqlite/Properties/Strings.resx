@@ -123,6 +123,9 @@
   <data name="InvalidMigrationOperation" xml:space="preserve">
     <value>SQLite cannot support this migration operation.</value>
   </data>
+  <data name="MigrationScriptGenerationNotSupported" xml:space="preserve">
+    <value>Generating scripts for migration is not supported by SQLite.</value>
+  </data>
   <data name="MultipleDatabasesNotSupported" xml:space="preserve">
     <value>Operations involving multiple databases in SQLite is not currently supported.</value>
   </data>
